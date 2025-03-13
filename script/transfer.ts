@@ -150,9 +150,13 @@ async function main() {
 		readlineSync.question('Enter the amount of tokens to transfer: '),
 		decimals
 	);
+	console.log("🚀 ~ transfer.ts:153 ~ main ~ amount:", amount)
+
 
 	// Calculate the cross-chain transfer cost
 	const cost = await CrossChainSender.quoteCrossChainDeposit(targetChainId);
+	console.log("🚀 ~ transfer.ts:156 ~ main ~ cost:", cost)
+
 
 	// Approve the CrossChainSender contract to transfer tokens on behalf of the user
 	const tokenContract = new ethers.Contract(

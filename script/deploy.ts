@@ -78,12 +78,16 @@ async function main() {
 
 		// Deploy the receiver contract on the target chain
 		const targetWallet = new ethers.Wallet(process.env.PRIVATE_KEY!, targetProvider);
+		console.log("🚀 ~ deploy.ts:81 ~ main ~ targetWallet:", targetWallet)
+
 		const receiverJson = JSON.parse(
 			fs.readFileSync(
 				path.resolve(__dirname, '../out/CrossChainReceiver.sol/CrossChainReceiver.json'),
 				'utf8'
 			)
 		);
+		// console.log("🚀 ~ deploy.ts:89 ~ main ~ receiverJson:", receiverJson)
+
 		const CrossChainReceiverFactory = new ethers.ContractFactory(
 			receiverJson.abi,
 			receiverJson.bytecode,
