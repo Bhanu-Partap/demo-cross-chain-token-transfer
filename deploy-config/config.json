@@ -1,6 +1,6 @@
 {
-    "sourceChain": 6,
-    "targetChain": 14,
+    "sourceChain": 4,
+    "targetChain": 6,
     "chains": [
       {
         "description": "Avalanche testnet fuji",
