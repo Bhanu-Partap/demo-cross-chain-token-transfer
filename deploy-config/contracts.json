@@ -1,14 +1,15 @@
 {
   "4": {
     "networkName": "BSC Testnet",
-    "deployedAt": "2025-03-10T10:16:55.684Z",
-    "CrossChainSender": "0x686A445d6bb8eCCDC433aC7B204B326E6Ebb5D8d"
+    "deployedAt": "2025-03-18T11:49:26.180Z",
+    "CrossChainSender": "0x8B6E5d5B8aB6255b66EDD16532234aE75CB81480",
+    "CrossChainReceiver": "0x9195B506796bA574E8ab5bc699b433EdE4EFf886"
   },
   "6": {
     "networkName": "Avalanche testnet fuji",
-    "CrossChainSender": "0xEed27AD1703a2F37d8cbC114923937E1ED55C919",
-    "deployedAt": "2025-03-10T10:16:55.684Z",
-    "CrossChainReceiver": "0xf12e92f353545cD1D1e441bE282a4242CaeF4dDa"
+    "CrossChainSender": "0x943dcfd22dF74dd516D4Dc7A60873ebf5f2824E5",
+    "deployedAt": "2025-03-18T11:49:26.179Z",
+    "CrossChainReceiver": "0x716C124960fe0B7BA669Fac4d4dE959A86813E47"
   },
   "14": {
     "networkName": "Celo Testnet",
