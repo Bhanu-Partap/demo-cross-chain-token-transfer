@@ -37,7 +37,7 @@
       {
         "description": "Goerli - Base",
         "chainId": 30,
-        "rpc": "https://goerli.base.org",
+        "rpc": "https://base-sepolia-rpc.publicnode.com",
         "tokenBridge": "0xA31aa3FDb7aF7Db93d18DDA4e19F811342EDF780",
         "wormholeRelayer": "0xea8029CD7FCAEFFcD1F53686430Db0Fc8ed384E1",
         "wormhole": "0x23908A62110e21C04F3A4e011d24F901F911744A"
