@@ -11,12 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npx ts-node script/deploy.ts",
     "transfer": "npx ts-node script/transfer.ts",
-    "verify": "npx ts-node script/check-attestation.ts"
+    "verify": "npx ts-node script/check-attestation.ts",
+    "attest": "npx ts-node script/attest.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.8.4",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.2",
     "readline-sync": "^1.4.10"
