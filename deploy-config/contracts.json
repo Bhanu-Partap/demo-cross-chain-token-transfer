@@ -7,19 +7,24 @@
   },
   "6": {
     "networkName": "Avalanche testnet fuji",
-    "CrossChainSender": "0x18F765212fc9970068a9294aCAb11630f8cb44a2",
-    "deployedAt": "2025-03-28T06:29:41.936Z",
+    "CrossChainSender": "0xe84cAc048cF4d8fA664EF642E0585E27b4E1CDF6",
+    "deployedAt": "2025-04-01T05:40:13.160Z",
     "CrossChainReceiver": "0x31B70EBef1AF6Cb71D9c583C51743c865f51E146"
   },
   "14": {
     "networkName": "Celo Testnet",
-    "CrossChainReceiver": "0xAcAEd991e7A8Bb62e3Aa14C4cd342dd1E9Eb351E",
-    "deployedAt": "2024-09-16T14:56:41.144Z",
+    "CrossChainReceiver": "0xe3562169c1E185dE49b4f9Ca25193183C5A98abC",
+    "deployedAt": "2025-03-31T06:49:11.471Z",
     "CrossChainSender": "0x15A5b4A69E32802090CAAdff05D6D7a1F6B2e19d"
   },
   "30": {
     "networkName": "Goerli - Base",
     "deployedAt": "2025-03-20T06:00:29.572Z",
     "CrossChainReceiver": "0x716C124960fe0B7BA669Fac4d4dE959A86813E47"
+  },
+  "10002": {
+    "networkName": "Ethereum Sepolia",
+    "deployedAt": "2025-04-01T05:40:13.160Z",
+    "CrossChainReceiver": "0x8B4f2F1Ad4b92d194fC2E34266439FB4d3CAD715"
   }
 }

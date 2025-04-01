@@ -41,7 +41,9 @@ function loadDeployedContracts(): DeployedContracts {
 function selectSourceChain(deployedContracts: DeployedContracts): {
 	chainId: number;
 	networkName: string;
-} {
+} {	
+	console.log(deployedContracts,"deployedContracts");
+	
 	const sourceOptions = Object.entries(deployedContracts).filter(
 		([, contracts]) => contracts.CrossChainSender
 	);

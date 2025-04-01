@@ -4,8 +4,7 @@
   "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.8.4",
-    "dotenv": "^16.4.5",
-    "ethers": "^6.13.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
@@ -28,5 +27,14 @@
     "@types/readline-sync": "^1.4.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhanu-Partap/demo-cross-chain-token-transfer.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bhanu-Partap/demo-cross-chain-token-transfer/issues"
+  },
+  "homepage": "https://github.com/Bhanu-Partap/demo-cross-chain-token-transfer#readme"
 }
